@@ -1,8 +1,8 @@
-apt update -y 
+sudo apt update -y 
 
-apt install default-jdk -y
+sudo apt install default-jdk -y
 
-apt install tomcat9 tomcat9-admin -y
+sudo apt install tomcat9 tomcat9-admin -y
 
 
 
