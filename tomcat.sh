@@ -31,12 +31,6 @@ comment:
 <!-- Valve className="org.apache.catalina.valves.RemoteAddrValve"
   allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1" /> -->
 
-sudo vi /opt/apache-tomcat-9.0.65/webapps/host-manager/META-INF/context.xml
-
-comment:
-<!-- Valve className="org.apache.catalina.valves.RemoteAddrValve"
-  allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1" /> -->
-
 sudo stopTomcat
 sudo startTomcat
 
