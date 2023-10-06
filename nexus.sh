@@ -20,6 +20,15 @@ nano /opt/nexus/bin/nexus.vmoptions
 https://www.howtoforge.com/how-to-install-and-configure-nexus-repository-manager-on-ubuntu-20-04/
 ```
 
+apt-get install openjdk-8-jdk -y
+wget https://download.sonatype.com/nexus/3/latest-unix.tar.gz
+tar -xf latest-unix.tar.gz
+cd nexus-3.61.0-02/bin/
+chmod +x nexus
+./nexus start
+
+
+
 
 ```
 docker run -d -p 8081:8081 --name nexus sonatype/nexus3
