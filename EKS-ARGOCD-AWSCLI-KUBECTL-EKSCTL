@@ -1,4 +1,4 @@
-================================================================== Setup Kubernetes using eksctl =================================================================
+================================================================ Setup Kubernetes using eksctl =================================================================
 # Install AWS CLI
 Refer--https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 $ sudo su
