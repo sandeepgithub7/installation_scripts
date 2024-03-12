@@ -1,4 +1,4 @@
--------------------------------------- Both Master & Worker Node ---------------------------------------
+------------------------------------ Both Master & Worker Node ---------------------------------------
 sudo apt update -y
 sudo apt install docker.io -y
 
